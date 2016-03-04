@@ -1,0 +1,10 @@
+Must Have (Go Live)
+-------------------
+* Fonts link to Google/FontAwesome CDN (not a static site).
+  > These should be moved to static/fonts
+* Google Analytics is missing
+
+Nice to have (Sunday)
+---------------------
+* Make all pricing boxes equi-height (except Pro plan)
+* Hovering over pricing plans should change the border colour (slightly)

@@ -1,0 +1,35 @@
+.features__item {
+    margin-bottom: 30px;
+    text-align: center;
+    @media (min-width: $screen-md) {
+        @extend .col-md-6;
+        // margin-bottom: 60px;
+        text-align: left;
+    }
+    .row--first {
+        margin-bottom: 60px;
+    }
+    .icon {
+        @extend .col-md-2;
+        margin-bottom: 40px;
+        .fa {
+            font-size: 40px;
+            color: $dark-grey;
+            border: 1px solid $light-grey;
+             width: 2.2em;
+             height: 2.2em;
+            line-height: 2.2em;
+             border-radius: 50%;
+             text-align: center;
+        }
+    }
+    .content {
+
+        @media (min-width: $screen-md) {
+            @extend .col-md-10;
+            padding-left: 40px;
+        }
+
+    }
+
+}

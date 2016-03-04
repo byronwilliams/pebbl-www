@@ -1,0 +1,9 @@
+.DS_Store
+public/*
+sass-cache
+static/css/style.css*
+static/admin/css/style.css*
+static/admin/js*
+*.map
+bower_components
+node_modules

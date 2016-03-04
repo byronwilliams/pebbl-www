@@ -1,0 +1,10 @@
+footer {
+    @extend %content-wrap;
+    background-color: #2e3234;
+    a {
+        color: #FFF;
+        &:hover {
+            color: $light-grey;
+        }
+    }
+}

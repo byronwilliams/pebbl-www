@@ -1,0 +1,40 @@
+/*
+    Browser
+*/
+
+.browser {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    position: relative;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    .top {
+        padding: 10px 10px 5px;
+        border-bottom: 1px solid #ccc;
+
+        /* buttons (group) */
+
+        .buttons {
+            position: relative;
+            top: -2px;
+            /* buttons (single) */
+
+            .button {
+              display: inline-block;
+              border: 1px solid #ccc;
+              width: 10px;
+              height: 10px;
+              margin-right: 2px;
+              -webkit-border-radius: 50%;
+              border-radius: 50%;
+            }
+        }
+
+    }
+
+    .website {
+        width: 95%;
+    }
+
+}

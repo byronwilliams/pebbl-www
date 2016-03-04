@@ -1,0 +1,26 @@
+{{ partial "header.html" . }}
+
+<section class="section">
+    <div class="container">
+        <div class="row">
+        <div class="col-md-8">
+            {{ range first 15 .Data.Pages }}
+            <article class="post">
+                <h1 class="post__title"><a href="{{ .RelPermalink }}">{{ .Title }}</a> </h1>
+                <p class="meta">
+                    {{ .Params.author }} - {{ .Date.Format "January, 2, 2006" }}
+                </p>
+                <div class="summary">
+{{ .Summary }}
+                </div>
+
+            </article>
+            {{ end }}
+        </div>
+        </div>
+    </div>
+
+    </div>
+</section>
+
+{{ partial "footer.html" . }}

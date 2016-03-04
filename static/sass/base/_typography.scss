@@ -1,0 +1,36 @@
+.body {
+
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 0;
+    margin-bottom: .5em;
+    line-height: 1.5em;
+}
+
+p {
+    font-family: 'Lora', serif;
+}
+
+
+a {
+    color: $primary-color;
+    &:hover {
+        color: darken($primary-color, 20%);
+    }
+}
+
+h1, h2 {
+    font-weight: 100;
+}
+
+h3, h4, h5, h6 {
+    margin-top: 0;
+    color: $primary-color;
+}
+
+p {
+    color: $secondary-color;
+}

@@ -1,0 +1,29 @@
+.navbar {
+    border: 0;
+    background-color: $pebbl-red;
+    margin-bottom: 0;
+    border-radius: 0;
+    padding-top: 20px;
+}
+.navbar-collapse {
+    border: 0;
+    box-shadow: none;
+
+}
+
+.navbar-brand {
+    padding-top: 0;
+    height: 96px;
+    .logo {
+        width: 160px;
+    }
+}
+
+
+.nav {
+    &__item {
+            a {
+                color: white !important;
+            }
+    }
+}

@@ -1,0 +1,15 @@
+baseurl = "http://www.figroll.io/"
+languageCode = "en-gb"
+title = "Pebbl - PHP Web Hosting"
+builddrafts = false
+buildfuture = false
+copyright = "Pebbl"
+[permalinks]
+  post = "/:year/:month/:filename/"
+  code = "/:filename/"
+
+[author]
+    name = "Pebbl"
+
+[taxonomies]
+  category = "categories"

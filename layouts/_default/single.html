@@ -1,0 +1,25 @@
+<!-- Single post -->
+{{ partial "header.html" . }}
+
+{{ if isset .Params "features" }}
+    {{ partial "pages/features.html" . }}
+{{else if isset .Params "pricing" }}
+    {{ partial "pages/pricing.html" . }}
+{{else if isset .Params "about" }}
+    {{ partial "pages/about.html" . }}
+{{ else }}
+
+    <section class="section section--features">
+        <div class="container">
+            <div class="section__header">
+                <h1 class="post__title" itemprop="name">{{ .Title }}</h1>
+            </div>
+
+            {{ .Content }}
+            <div id="disqus_thread"></div>
+        </div>
+    </section>
+
+{{ end }}
+
+{{ partial "footer.html" . }}

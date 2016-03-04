@@ -1,0 +1,24 @@
+{
+  "name": "Figroll website",
+  "homepage": "https://github.com/reactor10/figroll-www",
+  "authors": [
+    "drydenwilliams"
+  ],
+  "description": "Static web hosting",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.6"
+  },
+  "devDependencies": {
+    "font-awesome": "fontawesome#~4.5.0"
+  }
+}

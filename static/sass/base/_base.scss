@@ -1,0 +1,25 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+
+p {
+    padding-bottom: 30px;
+    line-height: 1.7em;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+
+
+.sign-up-link {
+    color: $mint !important;
+}
+
+.light-grey {
+    background-color: $light-grey;
+    color: #666;
+}
