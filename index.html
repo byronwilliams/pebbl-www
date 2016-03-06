@@ -52,11 +52,27 @@
       min-height: 500px;
     }
 
+    .navbar-nav {
+      line-height: 150px;
+      text-transform: uppercase;
+    }
 
-.navbar-nav>li>a {
-  line-height: 150px;
-  text-transform: uppercase;
-}
+    .navbar-nav>li>a {
+      line-height: inherit;
+    }
+
+    .navbar-nav>li>a {
+      line-height: inherit;
+      text-transform: uppercase;
+    }
+
+    @media (max-width: 768px) {
+        .navbar-nav>li>a {
+            line-height: 20px;
+        }
+    }
+
+
 
 .btn {
   width: 200px;
