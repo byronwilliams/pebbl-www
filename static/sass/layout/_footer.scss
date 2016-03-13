@@ -1,10 +1,8 @@
 footer {
     @extend %content-wrap;
-    background-color: #2e3234;
-    a {
-        color: #FFF;
-        &:hover {
-            color: $light-grey;
-        }
+    background-color: #FFF;
+    .footer-logo {
+        width: 100px;
+        margin-bottom: 20px;
     }
 }

@@ -19,22 +19,24 @@
         }
     }
 }
+
 .masthead {
     background-color: $pebbl-red;
-    color: white;
+    color: #FFF;
     @media (min-width: $screen-sm) {
         background-image: url('../img/laptop.png');
         background-repeat: no-repeat;
         background-position: 100% 0;
         background-size: auto 90%;
     }
-    &__intro {
+    &__header {
         line-height: 1.5em;
-        margin-bottom: 40px;
+        margin-bottom: 10px;
         font-size: 3em;
-        small {
-            color: white;
-        }
+        color: #FFF;
+    }
+    &__paragraph {
+        color: #FFF;
     }
     .laptop-wrapper {
         display: none;

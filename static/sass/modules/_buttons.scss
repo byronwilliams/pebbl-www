@@ -1,0 +1,15 @@
+.btn {
+    border-radius: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    &--light {
+        background-color: #FFF;
+        color: $pebbl-red;
+    }
+    &--dark {
+        background-color: $pebbl-red;
+        color: #FFF;
+    }
+}
