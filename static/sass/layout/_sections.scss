@@ -5,38 +5,24 @@
     @include clearfix;
     @extend %content-wrap;
     @extend %text-center;
-    &:nth-child(even) {
-        //@extend .light-grey;
-    }
-    .section__header {
-        margin-bottom: 20px;
-        text-align: center;
-        @media (min-width: $screen-sm-min) {
-            margin-bottom: 40px;
-        }
-        h2 {
-            font-size: 37px;
-        }
+    &__header {
+        line-height: 1em;
+        margin-bottom: 10px;
+        font-size: 3em;
     }
 }
 
 .masthead {
     background-color: $pebbl-red;
     color: #FFF;
-    @media (min-width: $screen-sm) {
-        background-image: url('../img/laptop.png');
+    @media (min-width: $screen-md) {
+        background-image: url('../img/laptop-pulse.png');
         background-repeat: no-repeat;
-        background-position: 100% 0;
+        background-position: 102% 0;
         background-size: auto 90%;
     }
-    &__header {
-        line-height: 1.5em;
-        margin-bottom: 10px;
-        font-size: 3em;
-        color: #FFF;
-    }
-    &__paragraph {
-        color: #FFF;
+    .section__paragraph {
+        color: #FFF !important;
     }
     .laptop-wrapper {
         display: none;
@@ -45,6 +31,29 @@
         }
     }
 }
+
+
+.highlight {
+    h2 {
+        margin-bottom: 0;
+        small {
+            color: $pebbl-red;
+            font-weight: bold;
+        }
+    }
+    &--red {
+        background-color: $pebbl-red;
+        color: #FFF;
+        h2, .btn {
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .btn {
+            margin-left: 30px;
+        }
+    }
+}
+
 .section--pricing {
     text-align: center;
     .btn {

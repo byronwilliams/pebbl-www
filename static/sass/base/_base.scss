@@ -23,3 +23,10 @@ img {
     background-color: $light-grey;
     color: #666;
 }
+
+.text-large {
+    font-size: 40px;
+    @media (min-width: $screen-sm-min) {
+        font-size: 80px;
+    }
+}

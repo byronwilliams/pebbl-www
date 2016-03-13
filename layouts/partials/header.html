@@ -8,19 +8,11 @@
     <meta property="og:title" content="{{ .Title }}" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ .Permalink }}" />
-    <meta name="description" content="Figroll. The easiest way to upload your static sites. Create, test, deploy and share in a few simple steps.">
+    <meta name="description" content="Pebbl php hosting.">
     <meta name="author" content="Byron &amp; Dryden Williams">
-    <meta name="keywords" content="Web Hosting, Static, Dynamic, Hosting, Dynamic Static Sites, Single Page Applications, Web-apps, School hosting">
+    <meta name="keywords" content="PHP Hosting, Hosting">
 
     <title>{{ .Site.Title }}</title>
-
-    {{ if isset .Params "masthead" }}
-    <meta property="og:image" content="http://www.ucarecdn.com/{{ .Params.masthead }}/title.jpg" />
-    {{ else }}
-      {{ if isset .Params "thumbimage" }}
-        <meta property="og:image" content="http://www.ucarecdn.com/{{ .Params.thumbimage }}/title.jpg" />
-      {{ end }}
-    {{ end }}
 
     <!-- Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Lora:400,700' rel='stylesheet' type='text/css'>
@@ -34,11 +26,6 @@
 
 
 <body>
-    <!-- <div class="banner-added">
-        <a class="banner fixed" href="/features">
-            Checkout the new Figroll CLI
-        </a>
-    </div> -->
 
     <!-- Static navbar -->
       <nav class="navbar navbar-default">
