@@ -6,7 +6,7 @@ Figroll website is build using Hugo - https://gohugo.io/overview/usage/
 ## Installation
 
 ```
-$ jekyll serve
+$ hugo server -w -D      
 ```
 
 ```
