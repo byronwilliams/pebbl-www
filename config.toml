@@ -1,4 +1,4 @@
-baseurl = "http://www.figroll.io/"
+baseurl = "http://www.pebbl.io/"
 languageCode = "en-gb"
 title = "Pebbl - PHP Web Hosting"
 builddrafts = false
