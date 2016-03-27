@@ -11,14 +11,13 @@
         font-size: 3em;
     }
 }
-
 .masthead {
     background-color: $pebbl-red;
     color: #FFF;
     @media (min-width: $screen-md) {
-        background-image: url('../img/laptop-pulse.png');
+        background-image: url('../img/macboog-retina-big.png');
         background-repeat: no-repeat;
-        background-position: 102% 0;
+        background-position: 95% 0;
         background-size: auto 90%;
     }
     .section__paragraph {
@@ -31,11 +30,11 @@
         }
     }
 }
-
-
 .highlight {
     h2 {
-        margin-bottom: 0;
+        @media (min-width: $screen-xs) {
+            margin-bottom: 0;
+        }
         small {
             color: $pebbl-red;
             font-weight: bold;
@@ -44,16 +43,18 @@
     &--red {
         background-color: $pebbl-red;
         color: #FFF;
-        h2, .btn {
+        h2,
+        .btn {
             display: inline-block;
             vertical-align: middle;
         }
         .btn {
-            margin-left: 30px;
+            @media (min-width: $screen-sm) {
+                margin-left: 30px;
+            }
         }
     }
 }
-
 .section--pricing {
     text-align: center;
     .btn {
@@ -81,6 +82,20 @@
                 width: auto;
                 display: inline-block;
             }
+        }
+    }
+}
+.features {
+    @extend .section;
+    @extend .light-grey;
+    .section__header {
+        margin-bottom: 50px;
+    }
+    &__item {
+        @extend .col-xs-12;
+        text-align: center;
+        @media (min-width: $screen-md) {
+            text-align: left;
         }
     }
 }
