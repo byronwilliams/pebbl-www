@@ -11,15 +11,30 @@
         font-size: 3em;
     }
 }
+
+
 .masthead {
     background-color: $pebbl-red;
     color: #FFF;
-    @media (min-width: $screen-md) {
-        background-image: url('../img/macboog-retina-big.png');
-        background-repeat: no-repeat;
-        background-position: 95% 0;
-        background-size: auto 90%;
+
+    .laptop {
+        display: none;
+
+        @media (min-width: $screen-md-min) {
+            margin-top: -50px;
+            display: block;
+        }
+        @media (min-width: $screen-lg-min) {
+            margin-top: -80px;
+            display: block;
+        }
     }
+    // @media (min-width: $screen-md) {
+    //     background-image: url('../img/macboog-retina-big.png');
+    //     background-repeat: no-repeat;
+    //     background-position: 95% 0;
+    //     background-size: auto 90%;
+    // }
     .section__paragraph {
         color: #FFF !important;
     }
